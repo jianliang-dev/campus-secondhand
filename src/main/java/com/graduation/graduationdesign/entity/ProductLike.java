@@ -1,0 +1,12 @@
+package com.graduation.graduationdesign.entity;
+
+import lombok.Data;
+import java.util.Date;
+
+@Data
+public class ProductLike {
+    private Long id;
+    private Long userId;
+    private Long productId;
+    private Date createTime;
+}
